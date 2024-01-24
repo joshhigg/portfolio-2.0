@@ -2,10 +2,10 @@ import { useState } from 'react';
 import Navigation from './Navigation';
 import Header from './Header';
 import Footer from './Footer';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import About from '../pages/About';
+import Portfolio from '../pages/Portfolio';
+import Contact from '../pages/Contact';
+import Resume from '../pages/Resume';
 import './section.css'
 
 export default function Section() {
