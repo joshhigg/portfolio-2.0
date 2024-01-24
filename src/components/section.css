@@ -1,5 +1,8 @@
-body {
+html, body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .page {
@@ -12,6 +15,7 @@ body {
 main {
     padding: 30px;
     display: flex;
+    padding-bottom: 80px;
 }
 
 .nav {
@@ -39,7 +43,7 @@ main {
 .footer {
     background-color: #54242c;
     color: #1C0F13;
-    padding: 25px 0;
+    height: 60px;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -58,6 +62,8 @@ main {
 
 .github img, .linkedin img {
     height: 40px;
+    position: relative;
+    bottom: -10px;
 }
 
 .github, .linkedin {
@@ -70,14 +76,41 @@ main {
     }
 
     .header {
-        font-size: 50px; /* Decrease header font size on small screens */
+        font-size: 50px;
         text-align: center;
         margin: 0px;
         padding: 0px;
     }
 
     .profile, .about {
-        height: auto; /* Make the profile image responsive */
-        width: 100%; /* Make the profile image take the full width on small screens */
+        height: auto;
+        width: 100%; 
     }
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+.portfolio {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    height: 200px;
+    width: 375px;
+    display: block;
+    border: 2px solid #54242c;
+    border-radius: 10px;
+}
+
+.projects h3 {
+    margin-top: 10px;
+}
+.github-link {
+    height: 25px;
 }
