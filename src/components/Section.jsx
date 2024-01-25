@@ -11,6 +11,11 @@ import './section.css'
 export default function Section() {
   const [currentPage, setCurrentPage] = useState('About');
 
+  const handleSubmit = (formData) => {
+    console.log('Form Data:', formData);
+  };
+  
+
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -19,7 +24,7 @@ export default function Section() {
       return <Portfolio />;
     }
     if (currentPage === 'Contact') {
-      return <Contact />;
+      return <Contact onSubmit={handleSubmit}/>;
     }
     return <Resume />;
     };
