@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div className="container">
-        <img src="src/assets/profile.pic.JPEG" className="profile"></img>
+        <img src="assets/profile.pic.JPEG" className="profile"></img>
         <div className="about">
           <h1>About Me</h1>
           <p>
