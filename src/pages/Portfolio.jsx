@@ -3,7 +3,7 @@ import Project from '../components/Project'
 const project1 = {
   name: 'Social Syntax',
   link: 'https://social-syntax-1f22eb865286.herokuapp.com/',
-  source: "src/assets/social.syntax.png",
+  source: "assets/social.syntax.png",
   desc: 'Javascript, Express, mySql, Node, handlebars',
   ghLink: 'https://github.com/joshhigg/syntax-social'
 }
@@ -11,7 +11,7 @@ const project1 = {
 const project2 = {
   name: 'Weather Dashboard',
   link: 'https://joshhigg.github.io/weather-dashboard/',
-  source: "src/assets/weather.dashboard.png",
+  source: "assets/weather.dashboard.png",
   desc: 'Javscript, HTML, CSS, APIs',
   ghLink: 'https://github.com/joshhigg/weather-dashboard'
 }
@@ -19,7 +19,7 @@ const project2 = {
 const project3 = {
   name: 'Notes App',
   link: 'https://infinite-inlet-78956-5d4ba5a6bad2.herokuapp.com/',
-  source: "src/assets/notes.app.png",
+  source: "assets/notes.app.png",
   desc: 'Javascript, Express, HTML, CSS',
   ghLink: 'https://github.com/joshhigg/note-taker'
 }
@@ -27,7 +27,7 @@ const project3 = {
 const project4 = {
   name: 'Tech Blog',
   link: 'https://higgtechblog-d9f097e3a062.herokuapp.com/',
-  source: "src/assets/tech.blog.png",
+  source: "assets/tech.blog.png",
   desc: 'Javascript, Express, Node, handlebars, sequilize',
   ghLink: 'https://github.com/joshhigg/tech-blog'
 }
@@ -35,7 +35,7 @@ const project4 = {
 const project5 = {
   name: 'Employee Tracker',
   link: 'https://github.com/joshhigg/employee-tracker',
-  source: "src/assets/employee.tracker.png",
+  source: "assets/employee.tracker.png",
   desc: "Javascript, mySQL, Node",
   ghLink: 'https://github.com/joshhigg/employee-tracker'
 }
@@ -43,7 +43,7 @@ const project5 = {
 const project6 = {
   name: 'Daily Planner',
   link: 'https://joshhigg.github.io/daily-planner/',
-  source: "src/assets/daily.planner.png",
+  source: "assets/daily.planner.png",
   desc: "HTML, CSS, Javascript",
   ghLink: 'https://github.com/joshhigg/daily-planner'
 }
