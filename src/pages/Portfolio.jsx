@@ -18,7 +18,7 @@ const project2 = {
 
 const project3 = {
   name: 'Notes App',
-  link: 'https://infinite-inlet-78956-5d4ba5a6bad2.herokuapp.com/',
+  link: 'https://note-taker-wip6.onrender.com/',
   source: "assets/notes.app.png",
   desc: 'Javascript, Express, HTML, CSS',
   ghLink: 'https://github.com/joshhigg/note-taker'
