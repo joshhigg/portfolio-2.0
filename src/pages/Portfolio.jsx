@@ -17,11 +17,11 @@ const project2 = {
 }
 
 const project3 = {
-  name: 'Notes App',
-  link: 'https://note-taker-wip6.onrender.com/',
-  source: "assets/notes.app.png",
-  desc: 'Javascript, Express, HTML, CSS',
-  ghLink: 'https://github.com/joshhigg/note-taker'
+  name: 'Candle E-commerce Site',
+  link: 'https://tahanancandleco.onrender.com/',
+  source: "assets/ecommerce.png",
+  desc: 'React, Javascript, MongoDB, StripeAPI, Vite',
+  ghLink: 'https://github.com/mjthurber/Tahanan_Candle'
 }
 
 const project4 = {
